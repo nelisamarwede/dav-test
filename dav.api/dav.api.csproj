@@ -5,6 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.2" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\DAV.Domain.EF\DAV.Domain.EF.csproj" />
     <ProjectReference Include="..\DAV.Domain\DAV.Domain.csproj" />
   </ItemGroup>
